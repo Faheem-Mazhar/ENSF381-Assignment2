@@ -4,31 +4,30 @@
         <title>
             LMS Login
         </title>
+        <link rel="stylesheet" type="text/css" href="../src/styles.css">
     </head>
     <body>
-        <div style="margin: 40px;font-size:large">
+        <div>
             <header>
                 <img src="../public/images/logo.jpg" alt="logo" width="140px" height="140px"/>
                 <h1>
                     <b>LMS - Learning Managment System</b>
                 </h1>
+            </header>
+            <div class="navbar" >
+                <a  href="index.html">Homepage</a>
+            </div>
+            <main class="login">
                 <h2>
                     LMS Login
                 </h2>
-            </header>
-            <div>
-                <a  href="index.html">Homepage</a>
-            </div>
-            <br>
-            <br>
-            <main>
                 <form>
                     <label for="username">Username:</label>
                     <input type="text" id="username" name="username"><br><br>
                     <label for="password">Password:</label>
                     <input type="password" id="password" name="password"><br><br>
-                    <input type="submit" value="Login">
                 </form>
+                <button type="submit">Login</button>
                 <br>
                 <div>
                     <a href="reset_password.html">Forgot Password?</a>

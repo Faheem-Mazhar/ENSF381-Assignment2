@@ -1,0 +1,129 @@
+
+/*General stylign for body header and footer for all pages */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #004080;
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: white;
+    width: fit-content;
+}
+
+.navbar {
+    background-color: #003366;
+    color: white;
+    display: flex;
+}
+
+.navbar a {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    border-bottom: white 6px solid;
+}
+
+
+/*Styling specific for the homepage */
+.homepage {
+    background-color: #d4d4d4;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.homepage h2 {
+    color: #004080;
+}
+
+.homepage  ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+/*Styling specific for the login page */
+
+.login {
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login h2 {
+    color: #004080;
+}
+
+.login form {
+    width: 66%;
+    background-color: #d4d4d4;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.login input {
+    width: 20%;
+    background-color: lightyellow;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid darkgray;
+}
+
+.login button {
+    width: fit-content;
+    background-color: #008000;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.login button:hover {
+    background-color: #006600;
+}
+
+.login a {
+    text-decoration: none;
+    color: #004080;
+}
+
+.login div:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+footer{
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
