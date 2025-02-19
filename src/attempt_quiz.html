@@ -18,21 +18,16 @@
                 <a href="index.html">Homepage</a>
                 <a href="course_view.html">Courses</a>
             </div>
-            <main>
-                <h2>
-                    LMS - Attempt Quiz
-                </h2>
-                <br>
-                <br>
-                <img src="../public/images/banner.jpg" alt="logo" width="98%" height=""/>
+            <main class="quizPage">
+                <img src="../public/images/banner.jpg" alt="logo" width="100%" height="150px"/>
                 <div>
-                    <h2>
-                        Course Name: Web Development
-                    </h2>
-                    <h2>
-                        Course Code: WD381
-                    </h2>
-                    <div>
+                    <div class="quizInfo">
+                        <h2>
+                            Course Name: Web Development
+                        </h2>
+                        <h2>
+                            Course Code: WD381
+                        </h2>
                         <p>
                             Topic: HTML Basics
                         </p>
@@ -43,8 +38,8 @@
                             Attempts Allowed: 1
                         </p>
                     </div>
-                    <div>
-                        <div>
+                    <div class="quizForm">
+                        <div class="quizQuestion">
                             <h3>
                                 Question 1
                             </h3>
@@ -56,10 +51,10 @@
                                 <label for="q1a1">Hyper Text Markup Language</label><br>
                                 <input type="radio" id="q1a2" name="q1" value="q1a2">
                                 <label for="q1a2">Home Tool Markup Language</label><br>
-                                <input type="submit" value="Submit Anwser">
                             </form>
+                            <button type="submit">Submit Anwser</button>
                         </div>
-                        <div>
+                        <div class="quizQuestion">
                             <h3>
                                 Question 2
                             </h3>
@@ -71,12 +66,12 @@
                                 <label for="q2a1">&lt;div&gt;</label><br>
                                 <input type="checkbox" id="q2a2" name="q2" value="q2a2">
                                 <label for="q2a1">&lt;span&gt;</label><br>
-                                <input type="submit" value="Submit Anwser">
                             </form>
+                            <button type="submit">Submit Anwser</button>
                         </div>
                         <br>
                         <div>
-                            <input type="submit" value="Finish Quiz">
+                            <input class="submitButton" type="submit" value="Finish Quiz">
                         </div>
                     </div>
                 </div>
