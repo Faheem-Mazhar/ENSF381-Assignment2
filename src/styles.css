@@ -45,8 +45,10 @@ header h1 {
 .homepage {
     background-color: #d4d4d4;
     align-items: center;
-    padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
 
 .homepage h2 {
@@ -54,8 +56,16 @@ header h1 {
 }
 
 .homepage  ul {
-    list-style-type: none;
-    padding: 0px;
+    width: fit-content;
+    list-style-type: '-';
+}
+
+.homepage li {
+    margin: 20px;
+}
+
+.listTitle {
+    font-weight: bold;
 }
 
 /*Styling specific for the login page */
